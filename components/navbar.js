@@ -106,7 +106,7 @@ const Navbar = props => {
           </BioSection>
           <LinkItem
             target="_blank"
-            href="https://github.com/cherryyeti/portfolio"
+            href="https://github.com/cherryyeti/firestarter-website"
             path={path}
             display="inline-flex"
             alignItems="left"
