@@ -39,7 +39,7 @@ const Page = () => {
                         Is it safe?
                     </Heading>
                     <Paragraph>
-                        FireStarter is completely open source! You are welcome to browser through the code at <Link href="https://www.github.com/CherryYeti/FireStarter">https://www.github.com/CherryYeti/FireStarter<ExternalLinkIcon /></Link>
+                        FireStarter is completely open source! You are welcome to browser through the code at <Link href="https://www.github.com/CherryYeti/FireStarter" target="_blank">https://www.github.com/CherryYeti/FireStarter<ExternalLinkIcon /></Link>
                     </Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/wiki">
