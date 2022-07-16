@@ -5,14 +5,16 @@ import Footer from "../../components/footer"
 import Layout from "../../components/layouts/article"
 import Paragraph from "../../components/paragraph"
 import Section from "../../components/section"
+import { SiArchlinux } from "react-icons/si"
+
 
 const arch = () => {
     return (
-        <Layout title="Getting Started">
+        <Layout title="Arch Install">
             <Container>
                 <Section delay={0.1}>
-                    <Heading as="h3" fontSize={28} mb={4} >
-                        Arch Linux Installation
+                    <Heading as="h3" fontSize={28} mb={4} display="inline-flex" alignItems="left">
+                        <SiArchlinux/>&nbsp;Arch Linux Installation
                     </Heading>
                 </Section>
                 <Section delay={0.2}>

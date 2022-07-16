@@ -13,7 +13,7 @@ const Links = () => {
                     <Link href="https://github.com/CherryYeti" target="_blank">
                         <Button
                             variant="ghost"
-                            colorScheme="blue"
+                            colorScheme="orange"
                             leftIcon={<IoLogoGithub />}
                         >
                             @CherryYeti

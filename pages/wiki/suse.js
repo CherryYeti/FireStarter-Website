@@ -5,14 +5,15 @@ import Footer from "../../components/footer"
 import Layout from "../../components/layouts/article"
 import Paragraph from "../../components/paragraph"
 import Section from "../../components/section"
+import { SiOpensuse } from "react-icons/si"
 
 const suse = () => {
     return (
-        <Layout title="Getting Started">
+        <Layout title="OpenSuse Install">
             <Container>
                 <Section delay={0.1}>
-                    <Heading as="h3" fontSize={28} mb={4} >
-                        OpenSuse Installation
+                    <Heading as="h3" fontSize={28} mb={4} display="inline-flex" alignItems="left">
+                        <SiOpensuse/>&nbsp;OpenSuse Installation
                     </Heading>
                 </Section>
                 <Section delay={0.2}>

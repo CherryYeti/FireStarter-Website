@@ -5,14 +5,16 @@ import Footer from "../../components/footer"
 import Layout from "../../components/layouts/article"
 import Paragraph from "../../components/paragraph"
 import Section from "../../components/section"
+import { SiUbuntu } from "react-icons/si"
+
 
 const ubuntu = () => {
     return (
-        <Layout title="Getting Started">
+        <Layout title="Ubuntu Install">
             <Container>
                 <Section delay={0.1}>
-                    <Heading as="h3" fontSize={28} mb={4} >
-                        Ubuntu Installation
+                    <Heading as="h3" fontSize={28} mb={4} display="inline-flex" alignItems="left">
+                        <SiUbuntu/>&nbsp;Ubuntu Installation
                     </Heading>
                 </Section>
                 <Section delay={0.2}>

@@ -1,6 +1,6 @@
 import { BioSection, BioYear } from '../components/bio'
 import { Box, Button, Container, Heading, Image, Link, useColorModeValue } from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon, ExternalLinkIcon } from '@chakra-ui/icons'
 import Footer from '../components/footer'
 import Layout from '../components/layouts/article'
 import Links from '../components/links'
@@ -13,65 +13,48 @@ const Page = () => {
         <Layout title="Homepage">
             <Container>
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-                    Hello, I&apos;m a college student and arch linux enthusiast!
+                    Welcome to FireStarter!
                 </Box>
                 <Box display={{ md: 'flex' }}>
                     <Box flexGrow={1}>
                         <Heading as="h2" variant="page-title">
-                            Jason Javandel
+                            FireStarter
                         </Heading>
                     </Box>
                 </Box>
                 <Section delay={0.1}>
                     <Heading as="h3" variant="section-title">
-                        Work
+                        What is FireStarter?
                     </Heading>
                     <Paragraph>
-                        Hello! I am a 17 year old freshman at the University of California, Merced.
-                        I am majoring in computer science, and I love creating!
-                        My most recent project that I have taken up is {' '}
-                        <NextLink href="/works/firestarter">
-                            <Link>Firestarter</Link>
-                        </NextLink>.
+                        Firestarter is a free and open source discord bot created to start, stop, and manage your servers.
+                    </Paragraph>
+                    <Heading as="h3" variant="section-title">
+                        Who made it?
+                    </Heading>
+                    <Paragraph>
+                        FireStarter was created and maintained by me! You can view my <Link href="https://www.github.com/CherryYeti">Github<ExternalLinkIcon /></Link> for more projects
+                    </Paragraph>
+                    <Heading as="h3" variant="section-title">
+                        Is it safe?
+                    </Heading>
+                    <Paragraph>
+                        FireStarter is completely open source! You are welcome to browser through the code at <Link href="https://www.github.com/CherryYeti/FireStarter">https://www.github.com/CherryYeti/FireStarter<ExternalLinkIcon /></Link>
                     </Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/wiki">
-                            <Button rightIcon={<ChevronRightIcon />} colorScheme="blue">
-                                Stuff I've made
+                            <Button rightIcon={<ChevronRightIcon />} colorScheme="orange">
+                                Get Started
                             </Button>
                         </NextLink>
                     </Box>
                 </Section>
-
                 <Section delay={0.2}>
-                    <Heading as="h3" variant="section-title">
-                        Bio
-                    </Heading>
-                    <BioSection>
-                        <BioYear>2004</BioYear>
-                        Born in Oakland, California
-                    </BioSection>
-                    <BioSection>
-                        <BioYear>2013</BioYear>
-                        Introduced to programming
-                    </BioSection>
-                    <BioSection>
-                        <BioYear>2021</BioYear>
-                        Found a passion for coaching baseball teams
-                    </BioSection>
-                    <BioSection>
-                        <BioYear>2022</BioYear>
-                        Started development on  {' '}
-                        <NextLink href="/works/firestarter"><Link>Firestarter</Link>
-                        </NextLink>
-                    </BioSection>
-                    <BioSection>
-                        <BioYear>2022-</BioYear>
-                        Attending the University of California Merced, studying Computer Science
-                    </BioSection>
+                    <Links />
                 </Section>
-                <Links />
-                <Footer />
+                <Section delay={0.3}>
+                    <Footer />
+                </Section>
             </Container>
         </Layout>
     )

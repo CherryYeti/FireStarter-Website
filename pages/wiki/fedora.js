@@ -5,14 +5,16 @@ import Footer from "../../components/footer"
 import Layout from "../../components/layouts/article"
 import Paragraph from "../../components/paragraph"
 import Section from "../../components/section"
+import { SiFedora } from "react-icons/si"
+
 
 const fedora = () => {
     return (
-        <Layout title="Getting Started">
+        <Layout title="Fedora Install">
             <Container>
                 <Section delay={0.1}>
-                    <Heading as="h3" fontSize={28} mb={4} >
-                        Fedora Installation
+                    <Heading as="h3" fontSize={28} mb={4} display="inline-flex" alignItems="left">
+                        <SiFedora/>&nbsp;Fedora Installation
                     </Heading>
                 </Section>
                 <Section delay={0.2}>

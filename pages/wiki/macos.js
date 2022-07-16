@@ -5,14 +5,15 @@ import Footer from "../../components/footer"
 import Layout from "../../components/layouts/article"
 import Paragraph from "../../components/paragraph"
 import Section from "../../components/section"
+import { SiApple } from "react-icons/si"
 
 const macos = () => {
     return (
-        <Layout title="Getting Started">
+        <Layout title="MacOS Install">
             <Container>
                 <Section delay={0.1}>
-                    <Heading as="h3" fontSize={28} mb={4} >
-                        MacOS Installation
+                    <Heading as="h3" fontSize={28} mb={4} display="inline-flex" alignItems="left" >
+                        <SiApple />&nbsp;MacOS Installation
                     </Heading>
                 </Section>
                 <Section delay={0.2}>

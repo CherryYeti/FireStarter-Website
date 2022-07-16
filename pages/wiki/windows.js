@@ -5,14 +5,14 @@ import Footer from "../../components/footer"
 import Layout from "../../components/layouts/article"
 import Paragraph from "../../components/paragraph"
 import Section from "../../components/section"
-
+import { SiWindows } from "react-icons/si"
 const windows = () => {
     return (
-        <Layout title="Getting Started">
+        <Layout title="Windows Install">
             <Container>
                 <Section delay={0.1}>
-                    <Heading as="h3" fontSize={28} mb={4} >
-                        Windows Installation
+                    <Heading as="h3" fontSize={28} mb={4} display="inline-flex" alignItems="left" >
+                        <SiWindows />&nbsp;Windows Installation
                     </Heading>
                 </Section>
                 <Section delay={0.2}>
