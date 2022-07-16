@@ -1,0 +1,33 @@
+{
+  "name": "react",
+  "homepage": "https://javandel.net/next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "export": "next export",
+    "prettier": "prettier -write",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Jason Javandel<jasonjavandel@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.4",
+    "@chakra-ui/react": "^2.2.4",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "framer-motion": "^6.5.1",
+    "next": "^12.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-next": "^12.2.2",
+    "prettier": "^2.7.1"
+  }
+}
