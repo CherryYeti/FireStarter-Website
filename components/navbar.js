@@ -32,7 +32,7 @@ const Navbar = props => {
       position="fixed"
       as="nav"
       w="20%"
-      bg={useColorModeValue('#ffffff40', '#20202380')}
+      h="100%"
       css={{ backdropFilter: 'blur(10px)' }}
       zIndex={2}
       {...props}
