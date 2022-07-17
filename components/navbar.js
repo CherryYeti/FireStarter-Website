@@ -132,7 +132,7 @@ const Navbar = props => {
               />
               <MenuList>
                 <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
+                  <MenuItem as={Link}>Home</MenuItem>
                 </NextLink>
                 <NextLink href="/wiki" passHref>
                   <MenuItem as={Link}>Setup</MenuItem>
@@ -145,7 +145,6 @@ const Navbar = props => {
                 </MenuItem>
                 <MenuItem>
                 <ThemeToggleButton />
-                
                 </MenuItem>
               </MenuList>
             </Menu>
