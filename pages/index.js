@@ -33,13 +33,13 @@ const Page = () => {
                         Who made it?
                     </Heading>
                     <Paragraph>
-                        FireStarter was created and maintained by me! You can view my <Link href="https://www.github.com/CherryYeti">Github<ExternalLinkIcon /></Link> for more projects
+                        FireStarter was created and maintained by me! You can view my <Link href="https://www.github.com/CherryYeti"><u>Github</u><ExternalLinkIcon /></Link> for more projects
                     </Paragraph>
                     <Heading as="h3" variant="section-title">
                         Is it safe?
                     </Heading>
                     <Paragraph>
-                        FireStarter is completely open source! You are welcome to browser through the code at <Link href="https://www.github.com/CherryYeti/FireStarter" target="_blank">https://www.github.com/CherryYeti/FireStarter<ExternalLinkIcon /></Link>
+                        FireStarter is completely open source! You are welcome to browser through the code at <Link href="https://www.github.com/CherryYeti/FireStarter" target="_blank"><u>https://www.github.com/CherryYeti/FireStarter</u><ExternalLinkIcon /></Link>
                     </Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/wiki">

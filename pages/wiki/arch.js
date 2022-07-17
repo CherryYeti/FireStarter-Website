@@ -61,7 +61,7 @@ const arch = () => {
                         3. Setting up the Discord Bot <IoLogoDiscord />
                     </Heading>
                     <ol>
-                        <li>Go to the <Link href="https://discord.com/developers/applications">Discord Developer page<ExternalLinkIcon /></Link></li>
+                        <li>Go to the <Link href="https://discord.com/developers/applications"><u>Discord Developer page</u><ExternalLinkIcon /></Link></li>
                         <li>Click on New Application in the top right corner</li>
                         <li>Name it whatever you want (Preferrably FireStarter)</li>
                         <li>Click the copy button under application id and paste it into the config.json file in the clientID object</li>

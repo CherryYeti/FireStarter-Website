@@ -21,7 +21,7 @@ const windows = () => {
                     </Heading>
                     <Paragraph>
                         In order to run Firestarter, you first need to install the current version of&nbsp;
-                        <Link href="https://www.nodejs.org/" target="_blank">NodeJS<ExternalLinkIcon /></Link>. Download and run the msi file to install it.
+                        <Link href="https://www.nodejs.org/" target="_blank"><u>NodeJS</u><ExternalLinkIcon /></Link>. Download and run the msi file to install it.
                     </Paragraph>
                     <p />
                 </Section>
@@ -34,9 +34,9 @@ const windows = () => {
                         You need to install both Java 8 and Java 18 for Firestarter to launch all versions of minecraft.
                     </Paragraph>
                     <p />
-                    <Link href="https://adoptium.net/temurin/releases/?version=8" target="_blank">Install Java 8 from here<ExternalLinkIcon /></Link>
+                    <Link href="https://adoptium.net/temurin/releases/?version=8" target="_blank"><u>Install Java 8 from here</u><ExternalLinkIcon /></Link>
                     <p />
-                    <Link href="https://adoptium.net/temurin/releases/?version=18" target="_blank">Install Java 18 from here<ExternalLinkIcon /></Link>
+                    <Link href="https://adoptium.net/temurin/releases/?version=18" target="_blank"><u>Install Java 18 from here</u><ExternalLinkIcon /></Link>
                     <p />
                 </Section>
                 <Section delay={0.4}>
@@ -64,7 +64,7 @@ const windows = () => {
                         3. Setting up the Discord Bot <IoLogoDiscord />
                     </Heading>
                     <ol>
-                        <li>Go to the <Link href="https://discord.com/developers/applications">Discord Developer page<ExternalLinkIcon /></Link></li>
+                        <li>Go to the <Link href="https://discord.com/developers/applications"><u>Discord Developer page</u><ExternalLinkIcon /></Link></li>
                         <li>Click on New Application in the top right corner</li>
                         <li>Name it whatever you want (Preferrably FireStarter)</li>
                         <li>Click the copy button under application id and paste it into the config.json file in the clientID object</li>
