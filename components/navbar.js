@@ -134,12 +134,12 @@ const Navbar = props => {
                 <NextLink href="/" passHref>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
-                <NextLink href="/works" passHref>
-                  <MenuItem as={Link}>Works</MenuItem>
+                <NextLink href="/wiki" passHref>
+                  <MenuItem as={Link}>Setup</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/cherryyeti/portfolio"
+                  href="https://github.com/cherryyeti/firestarter-website"
                 >
                   View Source
                 </MenuItem>
