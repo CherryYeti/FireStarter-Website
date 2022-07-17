@@ -1,10 +1,10 @@
+import { BioSection, BioYear } from './bio'
 import { Box, Container, Flex, Heading, IconButton, Link, Menu, MenuButton, MenuItem, MenuList, Stack, useColorModeValue } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import { IoLogoGithub } from 'react-icons/io5'
 import Logo from './logo'
 import NextLink from 'next/link'
 import ThemeToggleButton from './theme-toggle-button'
-import { BioSection, BioYear } from './bio'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href

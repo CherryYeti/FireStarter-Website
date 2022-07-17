@@ -1,11 +1,11 @@
 import { Container, Heading, Link } from "@chakra-ui/react"
 import { ExternalLinkIcon } from "@chakra-ui/icons"
 import { IoLogoNodejs, IoLogoDiscord } from "react-icons/io5"
+import { SiArchlinux } from "react-icons/si"
 import Footer from "../../components/footer"
 import Layout from "../../components/layouts/article"
 import Paragraph from "../../components/paragraph"
 import Section from "../../components/section"
-import { SiArchlinux } from "react-icons/si"
 
 
 const arch = () => {
