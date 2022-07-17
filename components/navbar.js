@@ -60,7 +60,9 @@ const Navbar = props => {
               <Logo />
             </Heading>
           </Flex>
-          <BioYear>Home</BioYear>
+          <BioYear><LinkItem href="/" path={path}>
+          Home
+            </LinkItem></BioYear>
           <BioSection>
             &nbsp;&nbsp;&nbsp;
             <LinkItem href="/wiki" path={path}>
