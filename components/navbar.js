@@ -143,6 +143,10 @@ const Navbar = props => {
                 >
                   View Source
                 </MenuItem>
+                <MenuItem>
+                <ThemeToggleButton />
+                
+                </MenuItem>
               </MenuList>
             </Menu>
           </Box>
