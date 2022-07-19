@@ -14,7 +14,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
       <Link
         p={2}
         bg={active ? 'grassTeal' : undefined}
-        color={active ? '#202023' : inactiveColor}
+        color={active ? '#7a7a7a' : inactiveColor}
         target={target}
         {...props}
       >
