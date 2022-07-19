@@ -14,7 +14,7 @@ import Section from '../components/section'
 const wiki = () => {
     return (
         <Layout title="Getting Started">
-            <Container>
+            <Container maxW="container.md">
                 <Heading as="h3" fontSize={28} mb={4}>
                     Getting Started
                 </Heading>
