@@ -33,7 +33,7 @@ const Page = () => {
                         Who made it?
                     </Heading>
                     <Paragraph>
-                        FireStarter was created and maintained by me! You can view my <Link href="https://www.github.com/CherryYeti"><u>Github</u><ExternalLinkIcon /></Link> for more projects
+                        FireStarter was created and maintained by me! You can view my <Link href="https://portfolio-cherryyeti.vercel.app/"><u>Website</u><ExternalLinkIcon /></Link> for more projects
                     </Paragraph>
                     <Heading as="h3" variant="section-title">
                         Is it safe?
